@@ -33,7 +33,7 @@ class NesCLexer(RegexLexer):
     name = 'NesC'
     aliases = ['nesc']
     filenames = ['*.nc']
-    mimetypes = ['text/x-chdr', 'text/x-csrc']
+    mimetypes = ['text/x-chdr', 'text/x-csrc', 'application/x-netcdf']
 
     #: optional Comment or Whitespace
     _ws = r'(?:\s|//.*?\n|/[*].*?[*]/)+'
