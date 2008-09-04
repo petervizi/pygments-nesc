@@ -8,7 +8,7 @@ __author__ = 'Peter Vizi'
 
 setup(
     name='NesC',
-    version='0.1',
+    version='0.2',
     description=__doc__,
     author=__author__,
     packages=['lexer'],
